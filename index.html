@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+  <title>News Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <section id="nav-logo">
+        <img src="./assets/images/logo.svg" alt="">
+      </section>
+
+      <section id="nav-links">
+        <ul>
+          <a href="#">
+            <li>home</li>
+          </a>
+          <a href="#">
+            <li>new</li>
+          </a>
+          <a href="#">
+            <li>popular</li>
+          </a>
+          <a href="#">
+            <li>trending</li>
+          </a>
+          <a href="#">
+            <li>categories</li>
+          </a>
+        </ul>
+      </section>
+      <section id="menu">
+        <button id="btn-open-side-menu">
+          <img src="./assets/images/icon-menu.svg" alt="">
+        </button>
+      </section>
+    </nav>
+  </header>
+
+  <aside id="side-menu">
+    <header id="side-menu-header">
+      <button id="btn-close-side-menu"><img src="./assets/images/icon-menu-close.svg"></button>
+    </header>
+    <main id="side-menu-main">
+      <ul>
+        <a href="#">
+          <li>home</li>
+        </a>
+        <a href="#">
+          <li>new</li>
+        </a>
+        <a href="#">
+          <li>popular</li>
+        </a>
+        <a href="#">
+          <li>trending</li>
+        </a>
+        <a href="#">
+          <li>categories</li>
+        </a>
+      </ul>
+    </main>
+  </aside>
+
+  <main id="main-content">
+    <section id="first-content">
+      <section id="high-visibility-content">
+        <div id="high-visibility-content-image">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+        </div>
+        <div id="high-vibility-content-texts">
+          <div id="high-vibility-content-texts-tittle">
+            <h1>the bright<br /> future of<br /> web 3.0?</h1>
+          </div>
+          <div id="high-vibility-content-texts-introduction">
+            <p>We dive into the next of the web that claims to put the power of the plataforms back into the hands of
+              the people. But is it really fulfilling its promise?</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </section>
+      <article id="main-news">
+        <h1>New</h1>
+
+        <div id="collection-cards">
+          <div class="collection-cards-card">
+            <a href="">
+              <h2>Hydrogen VS Eletric Cars</h2>
+            </a>
+            <p>Will hydrogen-fueled cars ever catch up to Ev's?</p>
+          </div>
+          <div class="collection-cards-card">
+            <a href="">
+              <h2>The Downsides of AI Artistry</h2>
+            </a>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="collection-cards-card">
+            <a href="">
+              <h2>Is VC Funding Drying Up?</h2>
+            </a>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="last-news-group">
+      <div class="last-news">
+        <div class="last-news-image">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="last-news-introduction">
+          <span>01</span>
+          <a href="">
+            <h2>Reviving Retro PCs</h2>
+          </a>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="last-news">
+        <div class="last-news-image">
+          <img src="./assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="last-news-introduction">
+          <span>02</span>
+          <a href="">
+            <h2>Top 10 Laptops of 2024</h2>
+          </a>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="last-news">
+        <div class="last-news-image">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="last-news-introduction">
+          <span>03</span>
+          <a href="">
+            <h2>The Growth of Gaming</h2>
+          </a>
+          <p>How the pandemic has sparked fresh opportunites.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
